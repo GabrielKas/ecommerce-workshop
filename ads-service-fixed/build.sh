@@ -1,7 +1,7 @@
 #!/bin/bash
 # Set bash strict mode so we insta-fail on any errors
 # -e: Exit immediately if a command has non-zero exit code, i.e. fails somehow.
-#      Otherwise bash is like a Python program that just swallows exceptions.
+#     Otherwise bash is like a Python program that just swallows exceptions.
 # -u: Exit with error message if code uses an undefined environment variable,
 #     instead of silently continuing with an empty string.
 # -o pipefail: Like -e, except for piped commands.
